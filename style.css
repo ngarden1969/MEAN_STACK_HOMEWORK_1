@@ -1,0 +1,91 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  display: block;
+  padding: 10px;
+  position: relative;
+}
+h1 {
+  font-weight: bold;
+}
+
+.main {
+  width: 80%;
+  height: 100vh;
+  margin: 0px auto;
+}
+
+.input-el {
+  width: 28%;
+  height: 40px;
+  margin: 5px 10px;
+  padding: 10px;
+  border-radius: 0.3rem;
+  border: solid 0.8px gray;
+}
+.long-input {
+  width: 58%;
+}
+.agreement {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 65%;
+  height: 5%;
+}
+
+.agree-text {
+  font-weight: bold;
+}
+
+.terms {
+  text-align: left;
+  font-size: small;
+}
+.highlight1 {
+  background-color: rgb(64, 120, 204);
+  color: white;
+  padding: 0px 5px;
+  border-radius: 0.2rem;
+}
+.highlight2 {
+  color: rgb(102, 183, 210);
+}
+.btn {
+  width: 28.5%;
+  height: 40%;
+  margin: 10px 16px 200px 0px;
+  padding: 10px;
+  border-radius: 0.3rem;
+  border: solid 0.8px gray;
+}
+.register {
+  background-color: rgb(64, 120, 204);
+  color: white;
+  font-size: larger;
+}
+.sign-in {
+  background-color: rgb(11, 199, 52);
+  color: white;
+  font-size: larger;
+}
+footer {
+  border-top: solid 1px black;
+  width: 80%;
+  justify-content: center;
+  margin: 10px auto;
+  padding-top: 30px;
+  font-size: 16px;
+}
+.footer-span {
+  border-top: 1px solid black;
+}
+input:focus {
+  border: none;
+  box-shadow: 4px 4px 4px blue;
+}
