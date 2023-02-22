@@ -85,7 +85,4 @@ footer {
 .footer-span {
   border-top: 1px solid black;
 }
-input:focus {
-  border: none;
-  box-shadow: 4px 4px 4px blue;
-}
+
