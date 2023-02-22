@@ -14,7 +14,7 @@ h1 {
 }
 
 .main {
-  width: 80%;
+  width: 90%;
   height: 100vh;
   margin: 0px auto;
 }
@@ -35,18 +35,19 @@ h1 {
   justify-content: space-between;
   align-items: center;
   margin: auto;
-  width: 65%;
+  width: 60%;
   height: 5%;
+  text-align: left;
+  font-size: 15px;
+}
+.check {
+  width: 55%;
 }
 
 .agree-text {
   font-weight: bold;
 }
 
-.terms {
-  text-align: left;
-  font-size: small;
-}
 .highlight1 {
   background-color: rgb(64, 120, 204);
   color: white;
@@ -76,7 +77,7 @@ h1 {
 }
 footer {
   border-top: solid 1px black;
-  width: 80%;
+  width: 90%;
   justify-content: center;
   margin: 10px auto;
   padding-top: 30px;
@@ -86,3 +87,39 @@ footer {
   border-top: 1px solid black;
 }
 
+@media screen and (max-width: 1000px) {
+  .terms,
+  .agree-text,
+  body,
+  footer {
+    font-size: 10px;
+  }
+  .input-el {
+    width: 26%;
+    height: 20px;
+    margin: 5px 2px;
+    padding: 5px;
+    font-size: 10px;
+  }
+  .long-input {
+    width: 54%;
+  }
+  .btn {
+    width: 24.5%;
+    height: 20px;
+    margin: 6px 12px 200px 0px;
+    font-size: 10px;
+    padding: 4px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .terms,
+  .agree-text,
+  footer,
+  body {
+    font-size: 7px;
+  }
+  .check {
+    width: 40%;
+  }
+}
